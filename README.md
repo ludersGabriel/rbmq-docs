@@ -1,4 +1,3 @@
-T
 # RPC Communication with RBMQ
 
 This is an implementation of async RPC communication in NodeJS between a client and a server 
@@ -11,3 +10,11 @@ The lib itself is described at ```rpc/amqplib.js ```
 
 ## Running
 To test the example, run the server in a terminal and in another run the client
+
+### Running the server
+  ``` node server.js ```
+ 
+### Running the client
+  ``` node client.js <num1> ... <numN> ```
+  #### Example
+   ``` node client.js 10 20 30 ```
