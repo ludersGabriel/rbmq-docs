@@ -1,4 +1,4 @@
-# RPC Communication with RBMQ
+# Async RPC Communication with RBMQ in NodeJS
 
 This is an implementation of async RPC communication in NodeJS between a client and a server 
 using RBMQ and AMQP.
